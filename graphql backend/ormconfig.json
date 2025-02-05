@@ -1,0 +1,14 @@
+{
+    "name": "default",
+    "type": "postgres",
+    "host" : "localhost",
+    "post" : 5432,
+    "username": "postgres",
+    "password": "test",
+    "database" : "splitwise-postgres-db",
+    "sychronize" : true,
+    "logging": true,
+    "entities": [
+        "src/models/*.*"
+    ]
+}

@@ -1,0 +1,5 @@
+SELECT "group".*
+FROM "group"
+JOIN user_groups_group ON "group".group_id = user_groups_group."groupGroupId"
+JOIN "user" ON user_groups_group."userId" = "user".id
+WHERE "user".id = 19; 
